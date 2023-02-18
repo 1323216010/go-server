@@ -14,13 +14,13 @@ import (
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
-	"server/lib/common"
-	"server/lib/conn"
-	"server/lib/crypt"
-	"server/lib/file"
-	"server/lib/version"
-	"server/server/connection"
-	"server/server/tool"
+	"go-server/lib/common"
+	"go-server/lib/conn"
+	"go-server/lib/crypt"
+	"go-server/lib/file"
+	"go-server/lib/version"
+	"go-server/server/connection"
+	"go-server/server/tool"
 )
 
 type Client struct {

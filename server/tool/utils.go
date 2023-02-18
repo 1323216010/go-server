@@ -10,7 +10,7 @@ import (
 	"github.com/shirou/gopsutil/v3/load"
 	"github.com/shirou/gopsutil/v3/mem"
 	"github.com/shirou/gopsutil/v3/net"
-	"server/lib/common"
+	"go-server/lib/common"
 )
 
 var (

@@ -10,8 +10,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"server/lib/common"
-	"server/lib/rate"
+	"go-server/lib/common"
+	"go-server/lib/rate"
 )
 
 func NewJsonDb(runPath string) *JsonDb {

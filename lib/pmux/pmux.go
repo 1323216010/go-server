@@ -14,7 +14,7 @@ import (
 
 	"github.com/astaxie/beego/logs"
 	"github.com/pkg/errors"
-	"server/lib/common"
+	"go-server/lib/common"
 )
 
 const (

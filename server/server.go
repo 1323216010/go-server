@@ -2,9 +2,9 @@ package server
 
 import (
 	"errors"
+	"go-server/lib/version"
 	"math"
 	"os"
-	"server/lib/version"
 	"strconv"
 	"strings"
 	"sync"
@@ -16,11 +16,11 @@ import (
 	"github.com/shirou/gopsutil/v3/load"
 	"github.com/shirou/gopsutil/v3/mem"
 	"github.com/shirou/gopsutil/v3/net"
-	"server/bridge"
-	"server/lib/common"
-	"server/lib/file"
-	"server/server/proxy"
-	"server/server/tool"
+	"go-server/bridge"
+	"go-server/lib/common"
+	"go-server/lib/file"
+	"go-server/server/proxy"
+	"go-server/server/tool"
 )
 
 var (

@@ -8,9 +8,9 @@ import (
 	"strings"
 	"sync"
 
-	"server/lib/common"
-	"server/lib/crypt"
-	"server/lib/rate"
+	"go-server/lib/common"
+	"go-server/lib/crypt"
+	"go-server/lib/rate"
 )
 
 type DbUtils struct {

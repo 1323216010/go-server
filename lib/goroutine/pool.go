@@ -2,10 +2,10 @@ package goroutine
 
 import (
 	"github.com/panjf2000/ants/v2"
+	"go-server/lib/common"
+	"go-server/lib/file"
 	"io"
 	"net"
-	"server/lib/common"
-	"server/lib/file"
 	"sync"
 )
 

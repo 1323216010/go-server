@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"server/lib/common"
+	"go-server/lib/common"
 )
 
 func InitDaemon(f string, runPath string, pidPath string) {

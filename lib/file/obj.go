@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"server/lib/rate"
+	"go-server/lib/rate"
 )
 
 type Flow struct {

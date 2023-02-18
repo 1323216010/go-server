@@ -6,8 +6,8 @@ import (
 	"strconv"
 
 	"github.com/astaxie/beego"
-	"server/lib/common"
-	"server/lib/file"
+	"go-server/lib/common"
+	"go-server/lib/file"
 )
 
 func TestServerConfig() {

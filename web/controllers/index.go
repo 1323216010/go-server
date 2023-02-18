@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"server/lib/file"
-	"server/server"
-	"server/server/tool"
+	"go-server/lib/file"
+	"go-server/server"
+	"go-server/server/tool"
 
 	"github.com/astaxie/beego"
 )

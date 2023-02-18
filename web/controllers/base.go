@@ -2,10 +2,10 @@ package controllers
 
 import (
 	"github.com/astaxie/beego"
+	"go-server/lib/common"
+	"go-server/lib/file"
+	"go-server/server"
 	"html"
-	"server/lib/common"
-	"server/lib/file"
-	"server/server"
 	"strconv"
 	"strings"
 )

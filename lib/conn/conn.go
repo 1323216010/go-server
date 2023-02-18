@@ -7,22 +7,22 @@ import (
 	"encoding/json"
 	"errors"
 	"github.com/astaxie/beego/logs"
+	"go-server/lib/goroutine"
 	"io"
 	"net"
 	"net/http"
 	"net/url"
-	"server/lib/goroutine"
 	"strconv"
 	"strings"
 	"sync"
 	"time"
 
 	"github.com/xtaci/kcp-go"
-	"server/lib/common"
-	"server/lib/crypt"
-	"server/lib/file"
-	"server/lib/pmux"
-	"server/lib/rate"
+	"go-server/lib/common"
+	"go-server/lib/crypt"
+	"go-server/lib/file"
+	"go-server/lib/pmux"
+	"go-server/lib/rate"
 )
 
 type Conn struct {

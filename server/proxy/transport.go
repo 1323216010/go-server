@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"syscall"
 
-	"server/lib/common"
-	"server/lib/conn"
+	"go-server/lib/common"
+	"go-server/lib/conn"
 )
 
 func HandleTrans(c *conn.Conn, s *TunnelModeServer) error {

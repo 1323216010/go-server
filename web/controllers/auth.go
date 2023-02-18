@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/astaxie/beego"
-	"server/lib/crypt"
+	"go-server/lib/crypt"
 )
 
 type AuthController struct {

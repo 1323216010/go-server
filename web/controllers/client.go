@@ -2,10 +2,10 @@ package controllers
 
 import (
 	"github.com/astaxie/beego"
-	"server/lib/common"
-	"server/lib/file"
-	"server/lib/rate"
-	"server/server"
+	"go-server/lib/common"
+	"go-server/lib/file"
+	"go-server/lib/rate"
+	"go-server/server"
 )
 
 type ClientController struct {

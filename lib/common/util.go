@@ -6,6 +6,7 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
+	"go-server/lib/version"
 	"html/template"
 	"io"
 	"io/ioutil"
@@ -13,12 +14,11 @@ import (
 	"net/http"
 	"os"
 	"regexp"
-	"server/lib/version"
 	"strconv"
 	"strings"
 	"sync"
 
-	"server/lib/crypt"
+	"go-server/lib/crypt"
 )
 
 // Get the corresponding IP address through domain name

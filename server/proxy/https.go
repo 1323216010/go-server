@@ -9,11 +9,11 @@ import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
 	"github.com/pkg/errors"
-	"server/lib/cache"
-	"server/lib/common"
-	"server/lib/conn"
-	"server/lib/crypt"
-	"server/lib/file"
+	"go-server/lib/cache"
+	"go-server/lib/common"
+	"go-server/lib/conn"
+	"go-server/lib/crypt"
+	"go-server/lib/file"
 )
 
 type HttpsServer struct {

@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/astaxie/beego/logs"
-	"server/lib/common"
+	"go-server/lib/common"
 )
 
 type P2PServer struct {

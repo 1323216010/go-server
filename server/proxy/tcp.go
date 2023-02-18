@@ -9,11 +9,11 @@ import (
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
-	"server/bridge"
-	"server/lib/common"
-	"server/lib/conn"
-	"server/lib/file"
-	"server/server/connection"
+	"go-server/bridge"
+	"go-server/lib/common"
+	"go-server/lib/conn"
+	"go-server/lib/file"
+	"go-server/server/connection"
 )
 
 type TunnelModeServer struct {

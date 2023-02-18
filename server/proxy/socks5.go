@@ -8,9 +8,9 @@ import (
 	"strconv"
 
 	"github.com/astaxie/beego/logs"
-	"server/lib/common"
-	"server/lib/conn"
-	"server/lib/file"
+	"go-server/lib/common"
+	"go-server/lib/conn"
+	"go-server/lib/file"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
-	"server/lib/pmux"
+	"go-server/lib/pmux"
 )
 
 var pMux *pmux.PortMux

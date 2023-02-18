@@ -10,7 +10,7 @@ import (
 	"syscall"
 
 	"github.com/astaxie/beego"
-	"server/lib/common"
+	"go-server/lib/common"
 )
 
 func init() {
